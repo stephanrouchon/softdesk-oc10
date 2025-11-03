@@ -18,20 +18,20 @@
     "default": {
         "asgiref": {
             "hashes": [
-                "sha256:3e1e3ecc849832fe52ccf2cb6686b7a55f82bb1d6aee72a58826471390335e47",
-                "sha256:c343bd80a0bec947a9860adb4c432ffa7db769836c64238fc34bdc3fec84d590"
+                "sha256:a5ab6582236218e5ef1648f242fd9f10626cfd4de8dc377db215d5d5098e3142",
+                "sha256:f3bba7092a48005b5f5bacd747d36ee4a5a61f4a269a6df590b43144355ebd2c"
             ],
-            "markers": "python_version >= '3.8'",
-            "version": "==3.8.1"
+            "markers": "python_version >= '3.9'",
+            "version": "==3.9.1"
         },
         "django": {
             "hashes": [
-                "sha256:1a47f7a7a3d43ce64570d350e008d2949abe8c7e21737b351b6a1611277c6d89",
-                "sha256:91ceed4e3a6db5aedced65e3c8f963118ea9ba753fc620831c77074e620e7d83"
+                "sha256:60549579b1174a304b77e24a93d8d9fafe6b6c03ac16311f3e25918ea5a20058",
+                "sha256:da5e00372763193d73cecbf71084a3848458cecf4cee36b9a1e8d318d114a87b"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.10'",
-            "version": "==5.2"
+            "version": "==5.2.6"
         },
         "django-environ": {
             "hashes": [
@@ -53,12 +53,12 @@
         },
         "djangorestframework": {
             "hashes": [
-                "sha256:bea7e9f6b96a8584c5224bfb2e4348dfb3f8b5e34edbecb98da258e892089361",
-                "sha256:f022ff46613584de994c0c6a4aebbace5fd700555fbe9d33b865ebf173eba6c9"
+                "sha256:166809528b1aced0a17dc66c24492af18049f2c9420dbd0be29422029cfc3ff7",
+                "sha256:33a59f47fb9c85ede792cbf88bde71893bcda0667bc573f784649521f1102cec"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.9'",
-            "version": "==3.16.0"
+            "version": "==3.16.1"
         },
         "djangorestframework-simplejwt": {
             "hashes": [
@@ -71,12 +71,12 @@
         },
         "drf-nested-routers": {
             "hashes": [
-                "sha256:2b846385ed95c9f17bf4242db3b264ac826b5af00dda6c737d3fe7cc7bf2c7db",
-                "sha256:3a8ec45a025c0f39188ec1ec415244beb875a6f4db87911a1f5a606d09b68c9f"
+                "sha256:815978f802e578fd7035c74040c104909cbe97615de89a275d77e928f4029891",
+                "sha256:dd489c33d667aaa81383ffaa8c74781d2b353d8f0795716ae37fc59ee297b7c4"
             ],
             "index": "pypi",
             "markers": "python_version >= '3.8'",
-            "version": "==0.94.1"
+            "version": "==0.95.0"
         },
         "flake8": {
             "hashes": [
