@@ -9,8 +9,8 @@ django-filter = "*"
 flake8 = "*"
 djangorestframework = "*"
 drf-nested-routers = "*"
-django = "*"
 django-environ = "*"
+django = "==6.0.1"
 
 [dev-packages]
 
