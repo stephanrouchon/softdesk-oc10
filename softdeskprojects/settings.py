@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
-import os
+
 from pathlib import Path
 from datetime import timedelta
 
@@ -90,16 +90,28 @@ DATABASES = {
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'UserAttributeSimilarityValidator'
+        ),
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'MinimumLengthValidator'
+        ),
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'CommonPasswordValidator'
+        ),
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME': (
+            'django.contrib.auth.password_validation.'
+            'NumericPasswordValidator'
+        ),
     },
 ]
 
@@ -129,9 +141,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL = 'authentication.User'
 
 REST_FRAMEWORK = {
-    'DEFAULT_PAGINATION_CLASS':'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE':10,
-    'DEFAULT_AUTHENTICATION_CLASSES':('rest_framework_simplejwt.authentication.JWTAuthentication',)
+    'DEFAULT_PAGINATION_CLASS': (
+        'rest_framework.pagination.LimitOffsetPagination'),
+    'PAGE_SIZE': 10,
+    'DEFAULT_AUTHENTICATION_CLASSES': (
+        'rest_framework_simplejwt.authentication.JWTAuthentication',)
 }
 
 SIMPLE_JWT = {
