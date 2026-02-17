@@ -10,7 +10,7 @@ flake8 = "*"
 djangorestframework = "*"
 drf-nested-routers = "*"
 django-environ = "*"
-django = "==5.2.11"
+django = "==6.0.2"
 
 [dev-packages]
 
